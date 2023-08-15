@@ -1,4 +1,4 @@
-namespace UnitTestingProject.Reservation;
+namespace UnitTestingProject;
 
 public class Reservation
 {

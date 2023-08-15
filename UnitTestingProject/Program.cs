@@ -1,4 +1,4 @@
-﻿using UnitTestingProject.Reservation;
+﻿using UnitTestingProject;
 
 Console.WriteLine("Hello, World!");
 
