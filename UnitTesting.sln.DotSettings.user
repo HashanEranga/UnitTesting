@@ -1,4 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/ActualSeverity/@EntryValue">INFO</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=49a2eb54_002D73fb_002D4db8_002D9ba5_002D60c64d45a585/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Reservation_Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::04E0FB20-70F2-4B8A-A579-43E712F91959::net7.0::UnitTestProject.UnitTests.Reservation.Tests.Reservation_Tests&lt;/TestId&gt;&#xD;

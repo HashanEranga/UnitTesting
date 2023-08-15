@@ -11,17 +11,19 @@ public class Reservation
 
     public bool cancelReservation(User madeBy)
     {
-        var reservationValidity = false;
-        if (_user.userName == madeBy.userName)
-        {
-            reservationValidity = true;
-        }
-        else if (madeBy.userName == "admin")
-        {
-            reservationValidity = true;
-        }
+        // var reservationValidity = false;
+        // if (_user.userName == madeBy.userName)
+        // {
+        //     reservationValidity = true;
+        // }
+        // else if (madeBy.userName == "admin")
+        // {
+        //     reservationValidity = true;
+        // }
+        //
+        // return reservationValidity;
 
-        return reservationValidity;
+        return madeBy.userName == _user.userName || madeBy.userName == "admin";
     }
 }
 
