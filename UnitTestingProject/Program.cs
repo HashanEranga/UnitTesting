@@ -28,3 +28,7 @@ foreach (var item in math.GetAllOddNumbers(40))
 {
     Console.WriteLine(item);
 }
+
+// Checking HtmlFormatter.cs
+var htmlFormatter = new HtmlFormatter();
+Console.WriteLine(htmlFormatter.FormatAsBold("Hashan"));
