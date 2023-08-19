@@ -2,8 +2,16 @@ namespace UnitTestProject.UnitTests.MathClass.Tests;
 using UnitTestingProject;
 public class MathClass_Tests
 {
-    private readonly MathClass _math = new();
+    private MathClass _math;
     private int a, b;
+
+    [SetUp]
+    public void SetUp()
+    {
+        _math = new MathClass();
+        a = 0;
+        b = 0;
+    }
     
     [Test]
     public void Add_WhenCalled_ReturnSumOfNumbers()
