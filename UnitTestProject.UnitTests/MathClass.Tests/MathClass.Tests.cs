@@ -23,29 +23,12 @@ public class MathClass_Tests
     }
 
     [Test]
-    public void Max_WhenFirstArgumentLarger_ReturnFirstArgument()
+    [TestCase(2,1,2)]
+    [TestCase(1,2,2)]
+    [TestCase(2,2,2)]
+    public void Max_WhenGreaterArgumentGiven_ReturnGreaterArgument(int a, int b, int expectedResult)
     {
-        a = 23;
-        b = 10;
-        var result = _math.Max(a, b);
-        Assert.AreEqual(a,result);
-    }
-
-    [Test]
-    public void Max_WhenSecondArgumentLarger_ReturnSecondArgument()
-    {
-        a = 23;
-        b = 45;
-        var result = _math.Max(a, b);
-        Assert.AreEqual(b,result);
-    }
-
-    [Test]
-    public void Max_WhenBothArgumentsAreSame_ReturnFirstArgument()
-    {
-        a = 67;
-        b = 67;
-        var result = _math.Max(a, b);
-        Assert.AreEqual(a,result);
+        var results = _math.Max(a, b);
+        Assert.AreEqual(expectedResult, results);
     }
 }
