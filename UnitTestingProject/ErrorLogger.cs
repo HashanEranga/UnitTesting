@@ -12,6 +12,6 @@ public class ErrorLogger
 
         LastError = error;
         
-        ErrorLogged?.Invoke(this, new Guid());
+        ErrorLogged?.Invoke(this, Guid.NewGuid());
     }
 }
