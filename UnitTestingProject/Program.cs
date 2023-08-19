@@ -17,3 +17,14 @@ var adminUser = new User() { userName = "admin" };
 isReservationCancelled = newReservation.cancelReservation(adminUser);
 Console.WriteLine(isReservationCancelled);
 
+// Checking math.cs
+var math = new MathClass();
+int a = 12, b = 10;
+
+Console.WriteLine($"Addition of {a} and {b} is : {math.Add(a,b)}");
+Console.WriteLine($"Maximum value of {a} and {b} is : {math.Max(a,b)}");
+Console.WriteLine(math.GetAllOddNumbers(40));
+foreach (var item in math.GetAllOddNumbers(40))
+{
+    Console.WriteLine(item);
+}
