@@ -31,4 +31,18 @@ public class MathClass_Tests
         var results = _math.Max(a, b);
         Assert.AreEqual(expectedResult, results);
     }
+
+    [Test]
+    public void GetAllOddNumbers_LimitsGreaterThanZero_ReturnOddNumbersUptoLimit()
+    {
+        var result = _math.GetAllOddNumbers(5);
+        Assert.That(result, Is.Not.Empty);
+        Assert.That(result.Count(), Is.EqualTo(3));
+        Assert.That(result, Does.Contain(1));
+        Assert.That(result, Does.Contain(3));
+        Assert.That(result, Does.Contain(5));
+        Assert.That(result, Is.EquivalentTo(new []{1,3,5}));
+        Assert.That(result, Is.Ordered);
+        Assert.That(result, Is.Unique);
+    }
 }

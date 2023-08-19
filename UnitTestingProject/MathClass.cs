@@ -16,7 +16,7 @@ public class MathClass
 
     public IEnumerable<int> GetAllOddNumbers(int limit)
     {
-        for (int i = 0; i < limit; i++)
+        for (int i = 0; i <= limit; i++)
         {
             if (i % 2 == 1) yield return i;
         }
