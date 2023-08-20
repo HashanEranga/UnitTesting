@@ -12,6 +12,11 @@ public class ErrorLogger
 
         LastError = error;
         
+        OnErrorLogged(Guid.NewGuid());
+    }
+
+    protected virtual void OnErrorLogged(Guid errorId)
+    {
         ErrorLogged?.Invoke(this, Guid.NewGuid());
     }
 }
