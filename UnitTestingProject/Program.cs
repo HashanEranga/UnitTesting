@@ -53,3 +53,16 @@ catch (ArgumentOutOfRangeException ex)
 
 Console.WriteLine(calculator.CalculateDemeritPoints(34));  
 Console.WriteLine(calculator.CalculateDemeritPoints(70));  
+
+// Checking Stack Program
+var stack = new StackDS<int>();
+stack.Push(23);
+stack.Push(34);
+stack.Push(12);
+stack.Push(56);
+stack.Push(78);
+Console.WriteLine(stack.Pop());
+Console.WriteLine(stack.Pop());
+Console.WriteLine(stack.Peek());
+Console.WriteLine(stack.Peek());
+Console.WriteLine("End Stack Program");
