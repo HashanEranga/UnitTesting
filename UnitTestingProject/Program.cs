@@ -32,3 +32,10 @@ foreach (var item in math.GetAllOddNumbers(40))
 // Checking HtmlFormatter.cs
 var htmlFormatter = new HtmlFormatter();
 Console.WriteLine(htmlFormatter.FormatAsBold("Hashan"));
+
+// Checking FizzBuzz program
+var fizzBuzz = new FizzBuzz();
+Console.WriteLine(fizzBuzz.GetOutput(15));
+Console.WriteLine(fizzBuzz.GetOutput(3));
+Console.WriteLine(fizzBuzz.GetOutput(5));
+Console.WriteLine(fizzBuzz.GetOutput(10));
