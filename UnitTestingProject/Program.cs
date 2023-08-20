@@ -39,3 +39,17 @@ Console.WriteLine(fizzBuzz.GetOutput(15));
 Console.WriteLine(fizzBuzz.GetOutput(3));
 Console.WriteLine(fizzBuzz.GetOutput(5));
 Console.WriteLine(fizzBuzz.GetOutput(10));
+
+// Checking DemeritCalculator Program
+var calculator = new DemeritPointsCalculator();
+try
+{
+    var exceptionResult = calculator.CalculateDemeritPoints(-1);
+}
+catch (ArgumentOutOfRangeException ex)
+{
+    Console.WriteLine("Argument Out of Range Occured");
+}
+
+Console.WriteLine(calculator.CalculateDemeritPoints(34));  
+Console.WriteLine(calculator.CalculateDemeritPoints(70));  

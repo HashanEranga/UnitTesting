@@ -19,6 +19,10 @@
 
     <ItemGroup>
       <ProjectReference Include="..\UnitTestingProject\UnitTestingProject.csproj" />
+
+
+
+
     </ItemGroup>
 
 

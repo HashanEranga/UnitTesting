@@ -8,5 +8,7 @@
     &lt;TestId&gt;NUnit3x::04E0FB20-70F2-4B8A-A579-43E712F91959::net7.0::UnitTestProject.UnitTests.MathClass.Tests.MathClass_Tests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::04E0FB20-70F2-4B8A-A579-43E712F91959::net7.0::UnitTestProject.UnitTests.HtmlFormatter.Tests.HtmlFormatter_Tests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::04E0FB20-70F2-4B8A-A579-43E712F91959::net7.0::UnitTestProject.UnitTests.ErrorLogger.Tests.ErrorLogger_Tests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::04E0FB20-70F2-4B8A-A579-43E712F91959::net7.0::UnitTestProject.UnitTests.FizzBuzz.Tests.FizzBuzz_Tests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::04E0FB20-70F2-4B8A-A579-43E712F91959::net7.0::UnitTestProject.UnitTests.DemeritPointsCalculator.Tests.DemeritPointsCalculator_Tests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
